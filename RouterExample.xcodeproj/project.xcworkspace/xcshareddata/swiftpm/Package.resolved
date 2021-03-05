@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Defaults",
+        "repositoryURL": "https://github.com/sindresorhus/Defaults.git",
+        "state": {
+          "branch": null,
+          "revision": "63dcea312f9cbd17064294a3ae99c9147704b65f",
+          "version": "4.2.1"
+        }
+      },
+      {
+        "package": "Router",
+        "repositoryURL": "https://github.com/ReactComponentKit/Router.git",
+        "state": {
+          "branch": null,
+          "revision": "146a36b029592352b02110bb321e7170a7f59265",
+          "version": "0.0.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

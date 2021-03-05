@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E59BC3525F266BC0069B248 /* RouterExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC3425F266BC0069B248 /* RouterExampleApp.swift */; };
+		4E59BC3725F266BC0069B248 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC3625F266BC0069B248 /* ContentView.swift */; };
+		4E59BC3925F266BD0069B248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E59BC3825F266BD0069B248 /* Assets.xcassets */; };
+		4E59BC3C25F266BD0069B248 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E59BC3B25F266BD0069B248 /* Preview Assets.xcassets */; };
+		4E59BC4725F267580069B248 /* Router in Frameworks */ = {isa = PBXBuildFile; productRef = 4E59BC4625F267580069B248 /* Router */; };
+		4E59BC4B25F268430069B248 /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 4E59BC4A25F268430069B248 /* Defaults */; };
+		4E59BC4E25F268520069B248 /* Prefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC4D25F268520069B248 /* Prefs.swift */; };
+		4E59BC5225F268C90069B248 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC5125F268C90069B248 /* OnboardingView.swift */; };
+		4E59BC5625F26B9E0069B248 /* OnboardingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC5525F26B9E0069B248 /* OnboardingView2.swift */; };
+		4E59BC5A25F26DD90069B248 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC5925F26DD90069B248 /* ColorView.swift */; };
+		4E59BC5E25F26E560069B248 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC5D25F26E560069B248 /* GreenView.swift */; };
+		4E59BC6325F2749C0069B248 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC6225F2749C0069B248 /* CounterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E59BC3125F266BC0069B248 /* RouterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RouterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E59BC3425F266BC0069B248 /* RouterExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterExampleApp.swift; sourceTree = "<group>"; };
+		4E59BC3625F266BC0069B248 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4E59BC3825F266BD0069B248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E59BC3B25F266BD0069B248 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E59BC3D25F266BD0069B248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E59BC4D25F268520069B248 /* Prefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefs.swift; sourceTree = "<group>"; };
+		4E59BC5125F268C90069B248 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4E59BC5525F26B9E0069B248 /* OnboardingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView2.swift; sourceTree = "<group>"; };
+		4E59BC5925F26DD90069B248 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		4E59BC5D25F26E560069B248 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
+		4E59BC6225F2749C0069B248 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E59BC2E25F266BC0069B248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E59BC4B25F268430069B248 /* Defaults in Frameworks */,
+				4E59BC4725F267580069B248 /* Router in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E59BC2825F266BC0069B248 = {
+			isa = PBXGroup;
+			children = (
+				4E59BC3325F266BC0069B248 /* RouterExample */,
+				4E59BC3225F266BC0069B248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E59BC3225F266BC0069B248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E59BC3125F266BC0069B248 /* RouterExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E59BC3325F266BC0069B248 /* RouterExample */ = {
+			isa = PBXGroup;
+			children = (
+				4E59BC4D25F268520069B248 /* Prefs.swift */,
+				4E59BC3425F266BC0069B248 /* RouterExampleApp.swift */,
+				4E59BC3625F266BC0069B248 /* ContentView.swift */,
+				4E59BC5125F268C90069B248 /* OnboardingView.swift */,
+				4E59BC5525F26B9E0069B248 /* OnboardingView2.swift */,
+				4E59BC5925F26DD90069B248 /* ColorView.swift */,
+				4E59BC5D25F26E560069B248 /* GreenView.swift */,
+				4E59BC6225F2749C0069B248 /* CounterView.swift */,
+				4E59BC3825F266BD0069B248 /* Assets.xcassets */,
+				4E59BC3D25F266BD0069B248 /* Info.plist */,
+				4E59BC3A25F266BD0069B248 /* Preview Content */,
+			);
+			path = RouterExample;
+			sourceTree = "<group>";
+		};
+		4E59BC3A25F266BD0069B248 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E59BC3B25F266BD0069B248 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E59BC3025F266BC0069B248 /* RouterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E59BC4025F266BD0069B248 /* Build configuration list for PBXNativeTarget "RouterExample" */;
+			buildPhases = (
+				4E59BC2D25F266BC0069B248 /* Sources */,
+				4E59BC2E25F266BC0069B248 /* Frameworks */,
+				4E59BC2F25F266BC0069B248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouterExample;
+			packageProductDependencies = (
+				4E59BC4625F267580069B248 /* Router */,
+				4E59BC4A25F268430069B248 /* Defaults */,
+			);
+			productName = RouterExample;
+			productReference = 4E59BC3125F266BC0069B248 /* RouterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E59BC2925F266BC0069B248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4E59BC3025F266BC0069B248 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4E59BC2C25F266BC0069B248 /* Build configuration list for PBXProject "RouterExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E59BC2825F266BC0069B248;
+			packageReferences = (
+				4E59BC4525F267580069B248 /* XCRemoteSwiftPackageReference "Router" */,
+				4E59BC4925F268430069B248 /* XCRemoteSwiftPackageReference "Defaults" */,
+			);
+			productRefGroup = 4E59BC3225F266BC0069B248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E59BC3025F266BC0069B248 /* RouterExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E59BC2F25F266BC0069B248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E59BC3C25F266BD0069B248 /* Preview Assets.xcassets in Resources */,
+				4E59BC3925F266BD0069B248 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E59BC2D25F266BC0069B248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E59BC4E25F268520069B248 /* Prefs.swift in Sources */,
+				4E59BC5225F268C90069B248 /* OnboardingView.swift in Sources */,
+				4E59BC5A25F26DD90069B248 /* ColorView.swift in Sources */,
+				4E59BC5E25F26E560069B248 /* GreenView.swift in Sources */,
+				4E59BC3725F266BC0069B248 /* ContentView.swift in Sources */,
+				4E59BC3525F266BC0069B248 /* RouterExampleApp.swift in Sources */,
+				4E59BC6325F2749C0069B248 /* CounterView.swift in Sources */,
+				4E59BC5625F26B9E0069B248 /* OnboardingView2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E59BC3E25F266BD0069B248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E59BC3F25F266BD0069B248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E59BC4125F266BD0069B248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RouterExample/Preview Content\"";
+				DEVELOPMENT_TEAM = F2YX27TG52;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RouterExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.skyfe79.RouterExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E59BC4225F266BD0069B248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RouterExample/Preview Content\"";
+				DEVELOPMENT_TEAM = F2YX27TG52;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RouterExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.skyfe79.RouterExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E59BC2C25F266BC0069B248 /* Build configuration list for PBXProject "RouterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E59BC3E25F266BD0069B248 /* Debug */,
+				4E59BC3F25F266BD0069B248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E59BC4025F266BD0069B248 /* Build configuration list for PBXNativeTarget "RouterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E59BC4125F266BD0069B248 /* Debug */,
+				4E59BC4225F266BD0069B248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E59BC4525F267580069B248 /* XCRemoteSwiftPackageReference "Router" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactComponentKit/Router.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+		4E59BC4925F268430069B248 /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E59BC4625F267580069B248 /* Router */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E59BC4525F267580069B248 /* XCRemoteSwiftPackageReference "Router" */;
+			productName = Router;
+		};
+		4E59BC4A25F268430069B248 /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E59BC4925F268430069B248 /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4E59BC2925F266BC0069B248 /* Project object */;
+}
