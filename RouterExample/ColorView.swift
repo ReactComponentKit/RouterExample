@@ -57,7 +57,7 @@ struct ColorView: View {
                 }
             }
             
-            Button(action: { router.route("myapp://content.as.root", .sheet) }) {
+            Button(action: { router.route("myapp://content?as_root=true", .sheet) }) {
                 Text("Go to Sheet")
                     .foregroundColor(.black)
             }

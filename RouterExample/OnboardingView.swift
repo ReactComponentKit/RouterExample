@@ -17,7 +17,7 @@ struct OnboardingView: View {
         VStack {
             Text("Onboarding View Page 1")
             Button("Next") {
-                router.route("myapp://onboarding2", .push)
+                router.route("myapp://onboarding?page=2", .push)
             }
         }
     }

@@ -32,32 +32,42 @@ struct RouterExampleApp: App {
                     .Else {
                         EmptyView()
                     }
-            }
-            .path("myapp://onboarding1") { _ in
-                OnboardingView()
-            }
-            .path("myapp://onboarding2") { _ in
-                OnboardingView2()
-            }
-            .path("myapp://content") { _ in
-                ContentView()
                     .navigationBarHidden(true)
             }
-            .path("myapp://content.as.root") { _ in
-                ContentView()
+            .path("myapp://onboarding") { data in
+                Switch(data.page.flatMap { Int($0) })
+                    .Case(1) { _ in
+                        OnboardingView()
+                    }
+                    .Case(2) { _ in
+                        OnboardingView2()
+                    }
+                    .Else {
+                        EmptyView()
+                    }
                     .navigationBarHidden(true)
-                    .asRouterRootView()
+            }
+            .path("myapp://content") { data in
+                Switch(data.as_root.flatMap { Bool($0) })
+                    .Case(true) { _ in
+                        ContentView()
+                            .asRouterRootView()
+                    }
+                    .Else {
+                        ContentView()
+                    }
+                    .navigationBarHidden(true)
             }
             .path("myapp://counter") { data in
                 CounterView(count: data.bindings.count)
+                    .navigationBarHidden(true)
             }
             .path("myapp://color") { data in
-                If<String>(data.color).Let { color in
+                If(data.color).Let { color in
                     ColorView(color:  MyColor.from(string: color))
-                        .navigationBarHidden(true)
                 }
-// or                
-//                Switch<String>(data.color)
+                .navigationBarHidden(true)
+//                Switch(data.color)
 //                    .Case("red") { color in
 //                        ColorView(color:  MyColor.from(string: color))
 //                            .navigationBarHidden(true)

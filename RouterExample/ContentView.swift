@@ -23,12 +23,12 @@ struct ContentView: View {
             Text("\(count)")
                 .font(.title)
             
-            Button("Go to Sheet") {
+            Button("Go to Counter Sheet") {
                 //router.route("myapp://color?color=red", .sheet)
                 router.builder()
                     .route("myapp://counter")
                     .presentation(mode: .sheet)
-                    .binding(name: "count", $count)
+                    .binding(name: "count", to: $count)
                     .go()
             }
         }

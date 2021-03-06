@@ -17,7 +17,6 @@
 		4E59BC5225F268C90069B248 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC5125F268C90069B248 /* OnboardingView.swift */; };
 		4E59BC5625F26B9E0069B248 /* OnboardingView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC5525F26B9E0069B248 /* OnboardingView2.swift */; };
 		4E59BC5A25F26DD90069B248 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC5925F26DD90069B248 /* ColorView.swift */; };
-		4E59BC5E25F26E560069B248 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC5D25F26E560069B248 /* GreenView.swift */; };
 		4E59BC6325F2749C0069B248 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E59BC6225F2749C0069B248 /* CounterView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		4E59BC5125F268C90069B248 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		4E59BC5525F26B9E0069B248 /* OnboardingView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView2.swift; sourceTree = "<group>"; };
 		4E59BC5925F26DD90069B248 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
-		4E59BC5D25F26E560069B248 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
 		4E59BC6225F2749C0069B248 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,7 +72,6 @@
 				4E59BC5125F268C90069B248 /* OnboardingView.swift */,
 				4E59BC5525F26B9E0069B248 /* OnboardingView2.swift */,
 				4E59BC5925F26DD90069B248 /* ColorView.swift */,
-				4E59BC5D25F26E560069B248 /* GreenView.swift */,
 				4E59BC6225F2749C0069B248 /* CounterView.swift */,
 				4E59BC3825F266BD0069B248 /* Assets.xcassets */,
 				4E59BC3D25F266BD0069B248 /* Info.plist */,
@@ -171,7 +168,6 @@
 				4E59BC4E25F268520069B248 /* Prefs.swift in Sources */,
 				4E59BC5225F268C90069B248 /* OnboardingView.swift in Sources */,
 				4E59BC5A25F26DD90069B248 /* ColorView.swift in Sources */,
-				4E59BC5E25F26E560069B248 /* GreenView.swift in Sources */,
 				4E59BC3725F266BC0069B248 /* ContentView.swift in Sources */,
 				4E59BC3525F266BC0069B248 /* RouterExampleApp.swift in Sources */,
 				4E59BC6325F2749C0069B248 /* CounterView.swift in Sources */,
