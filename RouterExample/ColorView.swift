@@ -15,6 +15,10 @@ enum MyColor: String {
     case yellow
     case purple
     case white
+    
+    static func from(string: String) -> MyColor {
+        return MyColor(rawValue: string) ?? .white
+    }
 }
 
 struct ColorView: View {

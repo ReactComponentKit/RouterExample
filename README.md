@@ -22,13 +22,15 @@ struct RouterExampleApp: App {
     var body: some Scene {
         WindowGroup {
             RouterRootView { router in
-                EmptyView()
-                    .onAppear {
-                        if isFirstLaunch {
-                            router.route("myapp://onboarding1", .replace)
-                        } else {
-                            router.route("myapp://content", .replace)
-                        }
+                Switch(isFirstLaunch)
+                    .Case(true) { _ in
+                        OnboardingView()
+                    }
+                    .Case(false) { _ in
+                        ContentView()
+                    }
+                    .Else {
+                        EmptyView()
                     }
             }
             .path("myapp://onboarding1") { _ in
@@ -50,8 +52,23 @@ struct RouterExampleApp: App {
                 CounterView(count: data.bindings.count)
             }
             .path("myapp://color") { data in
-                ColorView(color:  MyColor(rawValue: data.color ?? "red") ?? .red)
-                    .navigationBarHidden(true)
+                If<String>(data.color).Let { color in
+                    ColorView(color:  MyColor.from(string: color))
+                        .navigationBarHidden(true)
+                }
+// or                
+//                Switch<String>(data.color)
+//                    .Case("red") { color in
+//                        ColorView(color:  MyColor.from(string: color))
+//                            .navigationBarHidden(true)
+//                    }
+//                    .Case("green") { color in
+//                        ColorView(color:  MyColor.from(string: color))
+//                            .navigationBarHidden(true)
+//                    }
+//                    .Else {
+//                        Text("OMG")
+//                    }
             }
         }
     }
