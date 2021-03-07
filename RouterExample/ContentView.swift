@@ -31,6 +31,50 @@ struct ContentView: View {
                     .binding(name: "count", to: $count)
                     .go()
             }
+                        
+            Button("FormSheet") {
+                router.builder()
+                    .route("myapp://counter")
+                    .presentation(mode: .formSheet)
+                    .binding(name: "count", to: $count)
+                    .go()
+            }
+            
+            Button("currentContext") {
+                router.builder()
+                    .route("myapp://counter")
+                    .presentation(mode: .currentContext)
+                    .transition(style: .crossDissolve)
+                    .binding(name: "count", to: $count)
+                    .go()
+            }
+            
+            Button("overCurrentContext") {
+                router.builder()
+                    .route("myapp://counter")
+                    .presentation(mode: .overCurrentContext)
+                    .transition(style: .crossDissolve)
+                    .binding(name: "count", to: $count)
+                    .go()
+            }
+            
+            Button("fullscreen") {
+                router.builder()
+                    .route("myapp://counter")
+                    .presentation(mode: .fullscreen)
+                    .transition(style: .crossDissolve)
+                    .binding(name: "count", to: $count)
+                    .go()
+            }
+            
+            Button("overFullscreen") {
+                router.builder()
+                    .route("myapp://counter")
+                    .presentation(mode: .overFullscreen)
+                    .transition(style: .crossDissolve)
+                    .binding(name: "count", to: $count)
+                    .go()
+            }
         }
     }
 }
